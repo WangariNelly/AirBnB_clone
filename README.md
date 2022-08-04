@@ -1,35 +1,31 @@
-_AirBnB__ is a complete _web application_, integrating database storage, a back-end API, and front-end interface.
-
-The main aim of this project is to make a command interpreter that manages our AirBnB objects and is comprised of the following sections:-
-
-> #### i. Console
-
-> This is where Objects are created, files are serialized and where the first storage engine i.e., __The File Storage__ is created.
-
-> #### ii. HTML
-
-> This component consists of the visual interface for the future User. It mainly makes things pretty.
-
-> #### iii. MYSQL
-
-> It is a form storage. Other than JSON database, this is new type of database that allows unique ways to help in the burst storage of Objects.
-
-> #### iv. Deployment of HTML with fabric
-
-> This is where all the code is then deployed to a server.
-
-> #### v. Flask Web Application Server
-
-> The models that are in storage are interated with the HTML
-
-> #### vi. Rest API
-
-> This allows things that are object form and converts them into the JSON Format.
-
-> #### vii. Web Dynamic
-
-> The JSON API is integrated with the HTML to allow sharing of the completed project with other people.
+# AirBnB Clone
+![HBnB Logo](./image/hbnb_logo.png)
 
 
+### Contents
 
-## Command interpreter
+- [Description](#Description)
+- [Environment](#Environment)
+- [Further Information](#Furtherinformation)
+- [Requirements](#Requirements)
+- [Repo Contents](#FileContents)
+
+## Description :page_facing_up:
+This is the first phase of a four phase project, to create a basic clone of the AirBnB web app. In this first phase a basic console was created using the Cmd Python module, to manage the objects of the whole project, being able to implement the methods create a new object, retrieve an object, do operations on objects, update atrributes of an object, and destroy an object.
+
+
+## Environment :computer:
+The console was developed in Ubuntu 20.04LTS using python3 (version 3.8.10).
+
+### Further information :bookmark_tabs:
+For further information on python version, and documentation visit [python.org](https://www.python.org/).
+
+## Requirements :memo:
+Knowledge in python3, how to use a command line interpreter, a computer with Ubuntu 20.04, python3 and pep8 style corrector.
+
+## Repo Contents :clipboard:
+This repository constains the following files:
+
+|   **File**   |   **Description**   |
+| -------------- | --------------------- |
+|[AUTHORS](./AUTHORS) | Contains info about authors of the project |
