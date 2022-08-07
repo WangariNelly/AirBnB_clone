@@ -25,6 +25,7 @@ class BaseModel:
                     value = datetime.strptime(kwargs[key], f)
                 if key != '__class__':
                     setattr(self, key, value)
+
     def __str__(self):
         """returns class name, id and attribute dictionary
         """
