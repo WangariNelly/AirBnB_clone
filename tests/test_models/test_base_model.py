@@ -45,5 +45,15 @@ class BaseModelTests(unittest.TestCase):
         self.assertEqual(first_dict['created_at'], sec_dict['created_at'])
         self.assertNotEqual(first_dict['updated_at'], sec_dict['updated_at'])
 
+    def test_save_basemodel(self):
+        """Tests the public instance method save()."""
+
+        b = BaseModel()
+        time.sleep(0.5)
+        date_now = datetime.now()
+        b.save()
+        diff = b.updated_at - date_now
+        self.assertTrue(abs(diff.total_seconds()) < 0.01)
+
 if __name__ == '__main__':
     unittest.main()
